@@ -37,8 +37,8 @@ $booleen = false ;
 // var_dump indique le type + le contenu de la variable alors que le "print_r" indique directement le contenu de la variable (s'utilse pour le de-buggage et non l'affichage) 
 
 
-$fruit1 = 'pomme';
-$fruit2 = 'banane';
+// $fruit1 = 'pomme';
+// $fruit2 = 'banane';
 
 // echo "$fruit1"."<br>"."$fruit2";  
 // Soit on met les "" en debut et fin et la pas besoin de . entre chaque élément ou alors si on on met des "" entre chaque élément il faut bien les separer par des . 
@@ -47,6 +47,18 @@ $fruit2 = 'banane';
 // var_dump($fruit1);
 
 // si on assigne 2 fois le meme element à 2 valeurs, l'element pris en compte est toujours le dernier 
+
+// Aujourd'hui il fait beau 
+
+// echo 'Aujourd\'hui ile fait beau'; quand on utilise '' on ajoute \ avant les caracteres speciaux pour les lire normalement 
+
+// $resultat = '';
+// $resulat .= '<h1>';
+// $resulat .= 'Cours PHP';
+// $resulat .= '</h1>';
+// echo $resulat;
+// ajout le . avant le = permet de concaténer les éléments de la variable à la fin les éléments concatener apparaissent comme si c'etait une seule variable 
+
 
 
 require './footer.php'; ?>
