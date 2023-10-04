@@ -6,3 +6,7 @@
     <title>PHP</title>
 </head>
 <body>
+
+<?php
+$titre = "Un titre dans header php";
+?>
