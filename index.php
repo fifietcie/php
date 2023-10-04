@@ -1,16 +1,15 @@
 <?php
 /* include('./header.php'); */ //permet de linker les autres pages php
 /* include_once = linker une seule fois */
+require './fonctions.php';
 require './header.php'; /* à la difference de "include" si il y a une erreur il s'arrete  */
 //"echo" = affichage
-?>
 
-<?php
 
-echo "<h1>Ceppic PHP</h1>"; // on peut aussi utilser "print"
+// echo "<h1>Ceppic PHP</h1>"; // on peut aussi utilser "print"
 
-$variable = 'une variable'; //pour créer une variable il faut utiliser "$" + le nom de la variable. Attention rester constant sur le nommage.
-$Variable = 'Une Variable';
+// $variable = 'une variable'; //pour créer une variable il faut utiliser "$" + le nom de la variable. Attention rester constant sur le nommage.
+// $Variable = 'Une Variable';
 // echo $variable . $Variable;   le . fait la concaténation ( à la suite et non +)
 // echo $variable ." ". $Variable; echo $variable.' '.$Variable; :   les " " / ' ' ajoutent un espace entre les variables
 // echo "$variable"; les "" affichent bien le contenu de la variabe
@@ -22,9 +21,9 @@ $Variable = 'Une Variable';
 // $kebab-case = 'une variable en kebab case'; (pas utiliser en PHP)
 // $PascalCase = 'une variable en pascal case'
 
-$nombre = 45;
-$nombreDecimale = 10.5;
-$booleen = false ;
+// $nombre = 45;
+// $nombreDecimale = 10.5;
+// $booleen = false ;
 
 // print_r($nombre);
 // var_dump($nombre);
@@ -59,6 +58,25 @@ $booleen = false ;
 // echo $resulat;
 // ajout le . avant le = permet de concaténer les éléments de la variable à la fin les éléments concatener apparaissent comme si c'etait une seule variable 
 
+// echo $titre;
+// $tableau = array ()
+// echo '<pre>';
+// print_r($tableau);
+// var_dump($tableau);
+// echo '<pre>';  ----> cf fonctions.php
+
+$tableau = ['groupe', 23, 4.5, false, [1,2,3]];
+
+dd($tableau);
+dbug($titre);
+dbug("test")
+
+ 
+?>
+
+<h3><?=$titre?></h3>
+
+<?php 
 
 
 require './footer.php'; ?>
