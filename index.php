@@ -67,9 +67,12 @@ require './header.php'; /* à la difference de "include" si il y a une erreur il
 
 $tableau = ['groupe', 23, 4.5, false, [1,2,3]];
 
-dd($tableau);
-dbug($titre);
-dbug("test")
+// dd($tableau);
+// dbug($titre);
+// dbug("test")
+
+define('USER','John Doe');
+echo USER;
 
  
 ?>

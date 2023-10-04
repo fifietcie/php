@@ -7,6 +7,3 @@
 </head>
 <body>
 
-<?php
-$titre = "Un titre dans header php";
-?>
